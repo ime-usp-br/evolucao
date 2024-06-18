@@ -20,9 +20,7 @@
 
 @section('styles')
   @parent
-  <style>
-    /*seus estilos*/
-  </style>
+    <link rel="stylesheet" href="{{ asset('css/app.css').'?version=1' }}" />
 @endsection
 
 @section('javascripts_bottom')
